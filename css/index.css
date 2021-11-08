@@ -1,0 +1,471 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+body {}
+
+
+/* Start navbar */
+
+.navbar {
+    min-height: 50px;
+}
+
+.navbar-brand {
+    font-size: 25px;
+}
+
+.navbar-brand span {
+    color: #FF8b38;
+}
+
+
+/*End navbar */
+
+
+/* Start Header */
+
+.header_text-left {
+    background: url("file:///C:/Users/Dell/Desktop/my%20other%20site/img/pexels-photo-313782.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.header_text-left .info {
+    color: #FFF;
+}
+
+.header_text-left .overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+    padding-top: 100px;
+}
+
+.header_text-left .container {
+    margin-top: 25vh;
+}
+
+.header_text-left span {
+    color: #FF8b38;
+}
+
+.header_text-left h3 {
+    letter-spacing: 2px;
+}
+
+.header text-left .lead {
+    font-size: 15px;
+}
+
+.header_text-left .download {
+    background: none;
+    border: 1px solid #FFF;
+    padding: 10px 20px;
+}
+
+.header_text-left form {
+    overflow: hidden;
+    border-radius: 5px;
+    width: 400px;
+}
+
+.header_text-left form input {
+    margin: 5px 0px 0px 0px;
+    height: 50px;
+}
+
+.header_text-left form p {
+    padding: 10px;
+    font-size: 25px;
+    color: #FFF;
+}
+
+.header_text-left input[type="submit"] {
+    background-color: #FF8b38;
+    color: #000;
+    height: 50px;
+    font-size: 15px;
+}
+
+.header_text-left input[type="submit"]:hover {
+    background: none;
+    transition: 0.5s;
+    color: #FFF;
+}
+
+
+/* End Header */
+
+
+/*Start section one */
+
+.social {
+    background-color: #eee;
+}
+
+.social .lead {
+    font-size: 15px;
+}
+
+.social .icon {
+    margin-top: 35px;
+    padding: 15px;
+}
+
+
+/*end Section one */
+
+
+/*Start Section 2*/
+
+.tabs ul li {
+    text-align: center;
+    color: #FFF;
+    height: 90px;
+    line-height: 80px;
+    font-size: 20px;
+    padding: 10px;
+    background-color: #000;
+    margin: 10px;
+    width: 120px;
+    cursor: pointer;
+}
+
+.tabs .container {
+    padding-top: 50px;
+}
+
+.tabs ul .select {
+    background-color: #FF8b38;
+}
+
+.tabs ul li:hover {
+    background-color: #FF8b38;
+}
+
+.tabs button {
+    padding: 10px 20px;
+    background-color: #FF8b38;
+    border: none;
+    color: #FFF;
+}
+
+.tabs img {
+    width: 300px;
+    height: 200px;
+}
+
+.tabs .all_tabs div:not(.tabs_one) {
+    display: none;
+}
+
+
+/*End section 2*/
+
+
+/*Start sublist*/
+
+.sublist h1 {
+    border-bottom: 2px solid #FF8b38;
+}
+
+.sublist {
+    padding-top: 40px;
+    padding-bottom: 35px;
+}
+
+.sublist img {
+    padding-top: 25px;
+    width: 360px;
+    height: 300px;
+}
+
+.sublist span {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    border: 2px solid #FF8b38;
+    color: #FF8b38;
+}
+
+
+/*end sublist*/
+
+
+/*Start standred*/
+
+.stander {
+    background-color: #EEE;
+    padding-top: 45px;
+    padding-bottom: 30px;
+}
+
+.stander h1 {
+    border-bottom: 2px solid #FF8b38;
+}
+
+.stander p {
+    line-height: 23px;
+}
+
+.stander img {
+    width: 360px;
+    height: 300px;
+}
+
+
+/* End standred*/
+
+
+/* Start awesome */
+
+.awesome {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.awesome h2 {
+    margin-bottom: 15px;
+    text-decoration: line-through #FF8b38;
+}
+
+.awesome div {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.awesome div i {
+    font-size: 35px;
+    border: 1px solid #FF8b38;
+    height: 70px;
+    width: 70px;
+    line-height: 70px;
+    text-align: center;
+    color: #FF8b38;
+    border-radius: 50%;
+}
+
+.awesome div p {
+    line-height: 25px;
+}
+
+
+/* End awesome */
+
+
+/* Start Option */
+
+.option {
+    background-color: #EEE;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.option h1 {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #FF8b38;
+}
+
+.option div {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.option div .free {
+    background-color: #333;
+    color: #FFF;
+    border-bottom: 5px solid #FF8b38;
+}
+
+.option h3 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.option i {
+    font-size: 20px;
+}
+
+.option .under_option {
+    background-color: #fff;
+    text-transform: uppercase;
+}
+
+.center div .center_text {
+    background-color: #FF8b38;
+}
+
+.together {
+    margin-top: 70px;
+}
+
+
+/* End option */
+
+
+/*Start client*/
+
+.client {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.client h1 {
+    border-bottom: 1px solid #FF8b38;
+}
+
+.client .lead {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.client div .text {
+    background-color: #CCC;
+    width: 300px;
+    height: 100px;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-left: 8px;
+}
+
+.client img {
+    border-radius: 50%;
+    overflow: hidden;
+    height: 70px;
+    width: 70px;
+}
+
+
+/*End client */
+
+
+/* Start stylish*/
+
+.stylish {
+    background: url("file:///C:/Users/Dell/Desktop/my%20other%20site/img/berchtesgaden-alpine-watzmann-berchtesgaden-national-park-957002.jpeg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 400;
+    color: #eee;
+}
+
+.stylish .img {
+    background-color: rgba(0, 0, 0, 0.7);
+    min-height: 400px;
+    width: 100%;
+    height: 100%;
+}
+
+.stylish p,
+.stylish h1 {
+    padding-top: 30px;
+}
+
+.stylish button {
+    padding: 10px 20px;
+    background: none;
+    color: #eee;
+    border: 1px solid #FFF;
+    margin-top: 50px;
+    width: 220px;
+}
+
+
+/* End stylish*/
+
+
+/*Start Contact */
+
+.contact {
+    height: 650px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.contact h1 {
+    border-bottom: 1px solid #FF8b38;
+}
+
+.contact p {
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.input {
+    padding-top: 50px;
+}
+
+.contact .left input {
+    margin: 15px;
+    padding: 10px 10px;
+    height: 50px;
+}
+
+.contact .rigth {}
+
+.contact .rigth textarea {
+    height: 106px;
+    margin: 15px;
+    padding: 10px 10px;
+}
+
+.contact button {
+    margin: 15px;
+    padding: 15px 10px;
+    background-color: #FF8b38;
+    color: #FFF;
+}
+
+
+/* End Contact */
+
+
+/* Start footer */
+
+footer {
+    background-color: #333;
+    color: #FFF;
+}
+
+footer i {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 5px;
+}
+
+footer p {
+    font-size: 15px;
+}
+
+footer span {
+    color: #FF8b38;
+}
+
+
+/*End footer */
+
+
+/*Button*/
+
+.for_button {
+    position: fixed;
+    right: 15px;
+    bottom: 25px;
+    display: none;
+}
+
+.for_button img {
+    width: 50px;
+    height: 50px;
+    border: 3px solid #FF8b38;
+    border-radius: 10px;
+    background-color: #FFF;
+}
+
+
+/*button*/
